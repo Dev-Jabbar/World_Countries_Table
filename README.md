@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# World Countries Table App
+
+The World Countries Table App is a web application built with Next.js that fetches data from an external API and displays it in a table using Material UI components. This app allows users to filter and sort the data for a seamless browsing experience.
+
+## Features
+
+- Utilizes Next.js 13, a recommended React framework.
+- Stylishly designed with Tailwind CSS.
+- Employs Material UI for interactive and responsive components as well as material ui loading skeletons.
+- Written in TypeScript for enhanced code quality and developer experience.
+- Uses Context API for global state management.
+- Custom hooks encapsulate data fetching, filtering, and sorting logic.
+- Includes an API endpoint to retrieve `CountryData.json` data.
+
+
 
 ## Getting Started
 
-First, run the development server:
+To get started with the World Countries Table App, you'll need the following:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- A personal computer.
+- Prior programming knowledge.
+- Visual Studio Code (or another code editor of your choice) installed.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+1. Navigate to the project directory:
+   ```bash
+   $ cd World_Countries_Table
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install the required packages:
+    run yarn on your terminal or git bash to install packages
+  
+   $ yarn 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+To run the app, use the following commands:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Start the app in development mode:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  $ yarn dev
+
+
+- Start the app in production mode:
+ 
+  $ yarn start
+
+
+Once the app is running, you can:
+
+- Filter data using the "Has States" and continent form controls.
+- Sort data using the "Name (UN)" column.
+
+
+
+## Contributing
+
+We welcome contributions to improve the World Countries Table App. If you'd like to contribute, please visit the GitHub repository:
+
+[GitHub Repo](https://github.com/Dev-Jabbar/World_Countries_Table)
+
+## License
+
+This project is licensed under the [MOMOH ABDUL JABBAR License](LICENSE).
+
+---
+
